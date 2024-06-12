@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
+}
+
+#headerWrapper {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  color: #2b003d;
+  margin-bottom: 15px;
+}
+
+#container {
+  width: 55%;
+  height: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #1c5468;
+  box-shadow: 14px 15px 0px 0px #2b003d;
+  border: 3px solid #2b003d;
+  margin-bottom: 90px;
+  padding: 0px 10px;
+}
+
+#contentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+#amount {
+  width: 20%;
+  height: 25%;
+  border-radius: 5px;
+  padding: 0px 7px;
+  font-size: 16px;
+}
+
+#firstCurrencyOption {
+  width: 20%;
+  height: 25%;
+  border-radius: 5px;
+  padding: 0px 7px;
+  font-size: 16px;
+}
+#secondCurrencyOption {
+  width: 20%;
+  height: 25%;
+  border-radius: 5px;
+  padding: 0px 7px;
+  font-size: 16px;
+}
+#result {
+  width: 20%;
+  height: 25%;
+  border-radius: 5px;
+  padding: 0px 7px;
+}
+
+#convertEvent {
+  width: 10%;
+  height: 25%;
+  border-radius: 5px;
+  background-color: #f9c23c;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer p a {
+  color: #f9c23c;
+}
